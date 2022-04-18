@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Table -->
+    <table>
+        <thead>
+          <th>Full Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Address</th>
+        </thead>
+        <tbody id="tbody">
+            <td id="td"></td>
+        </tbody>
+    </table>
+
+  <form action="" novalidate>
+    <!-- Fullname -->
+    <p>
+        Fullname: <input type="text" id="nameInput">
+        <span id="nameError"></span>
+    </p>
+
+        <!-- Age -->
+    <p>
+        Age: <input type="number" id="ageInput">
+        <span id="ageError"></span>
+    </p>
+
+    <!-- email -->
+    <p>
+        Email: <input type="email" id="emailInput">
+        <span id="emailError"></span>
+    </p>
+
+    <!-- Gender -->
+    <p>
+        Gender:
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Others"> Others
+        <span id="genderError"></span>
+    </p>
+
+        <!-- Height -->
+    <p>
+        Height: <input type="number" id="heightInput">
+        <span id="heightError"></span>
+    </p>
+
+            <!-- Weight -->
+    <p>
+        Weight: <input type="number" id="weightInput">
+        <span id="weightError"></span>
+    </p>
+
+        <!-- Address -->
+    <p>
+        Address: <input type="text" id="addressInput">
+        <span id="addressError"></span>
+    </p>
+
+    <p>
+        <button type="button" id="add">Add</button>
+        <button type="reset" id="reset">Reset</button>
+    </p>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
